@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        div
+        {
+            background:url('login-bg.jpg') no-repeat ;
+            background-size: cover;
+            margin: 50px;
+            border: 10px solid blue;
+            padding: 100px 50px;
+            
+        }
+        form
+        {
+            text-align: center;
+        }
+        #login
+        {
+            padding:7px;
+            margin:5px;
+        }
+        .btn
+        {
+            padding:5px 35px;
+            margin: 15px;
+            background-color: blue;
+            color: white;
+            font-weight: bold;
+        }
+        .btn1
+        {
+            background-color: red;
+            padding: 5px 35px;
+            color:white;
+        }
+    </style>
+</head>
+<body style="background-color:bisque;">
+    <div>
+
+        <form style="color: white;">
+            
+            <img src="Login.jpg" alt="loading"><br>
+            <b>Login id:</b><input type="text" name="id" id="login" placeholder="Enter your Login id"><br>
+            <b>Password:</b><input type="password" name="pw" id="login" placeholder="Enter your password"><br>
+            <button type="button" class="btn">Login</button><br>
+            <input type="checkbox" checked="checked" name="remember" class="remember">Remember me
+            <button type="button" class="btn1">cancel</button>
+            <p>Forget <a href="#password" style="color: yellow;">password?</a></p>
+        
+        </form>
+    
+    </div>
+</body>
+</html>
